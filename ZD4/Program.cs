@@ -7,6 +7,22 @@ Console.WriteLine("Введите второе число ");
 int b = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите третье число ");
 int c = Convert.ToInt32(Console.ReadLine());
+int max;
+
+max=a;
+
+if (b>max)max=b;
+if (c>max)max=c;
+
+Console.WriteLine("Максимальное число: "+max);
+
+
+/*Console.WriteLine("Введите первое число ");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите второе число ");
+int b = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите третье число ");
+int c = Convert.ToInt32(Console.ReadLine());
 if (a > b)
 {
     Console.WriteLine("Max: " +a+ " Min: "+b );
@@ -22,7 +38,7 @@ else
     Console.WriteLine("Max: " +b+ " Min: "+c );
     }
    
-}
+}*/
 
 /*int Max(int a, int b, int c)
 Console.WriteLine("Введите первое число ");
