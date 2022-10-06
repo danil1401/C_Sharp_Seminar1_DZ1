@@ -2,11 +2,11 @@
 
 Console.Clear();
 
-int N;
-int i=1;
-Console.WriteLine("Введите число N: ");
-N = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите ваше число: ");
+int N = Convert.ToInt32(Console.ReadLine());
 
-for (int i = 1; i <= N; i++)
-    if (N % 2 == 0)
-        Console.WriteLine(N);
+for (int i=1; i<=N; i++)
+{
+    if(i%2==0)
+    Console.WriteLine(i);
+}
