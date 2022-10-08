@@ -7,11 +7,11 @@ int N =0;
 Console.WriteLine("Введите трехзначное число: ");
 N=Convert.ToInt32(Console.ReadLine());
 
-if (N >=100 && N<=999)
+if (N >=100 && N<=999)// проверка числа на 3х значность
 {
-    int DecreaseByTen=N/10;
-    int LastDigit=DecreaseByTen %10;
-    Console.WriteLine("Вторая цифра числа N = "+ LastDigit);
+    int DecreaseByTen=N/10;// делим число на 10
+    int LastDigit=DecreaseByTen %10;// берем пследнюю цифру(не остаток) от числа поделенного на 10
+    Console.WriteLine("Вторая цифра числа N = "+ LastDigit);// выводим эту последнюю цифру, которая и обозначает вторую чифру вводимого 3х значного числа
 }
 
 else
