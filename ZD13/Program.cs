@@ -26,3 +26,17 @@ else
 {
     Console.WriteLine("В веденом числе N нет третьей цифры");
 }
+
+/*Альтернативное решение
+Console.WriteLine("Введите число N (без остатка): ");
+int N = Convert.ToInt32(Console.ReadLine());
+string number_text = Convert.ToString(number);
+if(number_text.Length>2)
+    {
+        Console.WriteLine("Третья цифра числа N: "+number_text[2]);
+    }
+else
+    {  
+         Console.WriteLine("Третья цифра числа N отсутсвует");
+    }*/
+    
