@@ -9,12 +9,12 @@ Console.WriteLine("Введите третье число ");
 int c = Convert.ToInt32(Console.ReadLine());
 int max;
 
-max=a;
+max = a;
 
-if (b>max)max=b;
-if (c>max)max=c;
+if (b > max) max = b;
+if (c > max) max = c;
 
-Console.WriteLine("Максимальное число: "+max);
+Console.WriteLine("Максимальное число: " + max);
 
 
 /*Console.WriteLine("Введите первое число ");
@@ -57,4 +57,3 @@ if(c>b) result =c max;
 {
     Console.WriteLine("Max: c" );
 }*/
-    
