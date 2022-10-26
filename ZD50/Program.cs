@@ -34,7 +34,6 @@ catch
 }
 
 
-
 void FillWhithDouble(double[,] array)                               
 {
     for (int i=0; i<array.GetLength(0);i++)
@@ -66,12 +65,12 @@ int CorrectNaturalNumber()
         }
         catch
         {
-            Console.Write ("Повторите. Строка не является десятичным числом:: ");
+            Console.Write ("Повторите. Значение не является десятичным числом:: ");
             continue;
         }
         if (number<1) 
         {
-            Console.Write ("Повторите. Значение меньше 1:: ");
+            Console.Write ("Повторите. Значение меньше 1: ");
             continue;
         }
         return number;

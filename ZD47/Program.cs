@@ -47,7 +47,7 @@ int CorrectNaturalNumber()
         }
         catch
         {
-            Console.Write ("Повторите. Строка не является десятичным числом: ");
+            Console.Write ("Повторите. Значение не является десятичным числом: ");
             continue;
         }
         if (number<1) 
